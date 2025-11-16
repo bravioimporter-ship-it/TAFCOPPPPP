@@ -1,0 +1,26 @@
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+//Default theme is non-high-contrast
+//Fetch and apply theme if set in local storage
+//If not set, set default theme in local storage
+let theme = localStorage.getItem('theme');
+console.log('Theme: ' + theme);
+
+if (theme == null || (theme != 'default' && theme != 'high-contrast')) {
+    //If theme is not set or does not have defined value, consider
+    //it to be default and set it default in localStorage
+    theme = 'default';
+    localStorage.setItem('theme', theme);
+} else if (theme == 'default') {
+    //If theme is default, set link to base-layout.css
+    //only if it was high contrast earlier
+    $('link[href="/sancharsaathi/style/base-layout-high-contrast.css"]').attr('href', '/sancharsaathi/style/base-layout.css');
+} else if (theme == 'high-contrast') {
+    //If theme is high-contrast, set link to base-layout-high-contrast.css
+    //only if it was default earlier
+    $('link[href="/sancharsaathi/style/base-layout.css"]').attr('href', '/sancharsaathi/style/base-layout-high-contrast.css');
+}

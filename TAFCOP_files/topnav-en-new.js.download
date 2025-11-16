@@ -1,0 +1,8 @@
+function googleTranslateElementInit() {
+        setTimeout(() => {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'as,bn,doi,en,gu,hi,kn,gom,mai,ml,mr,ne,or,pa,sa,sd,ta,te,ur'
+            }, 'google_translate_element');
+        }, 500);
+    }

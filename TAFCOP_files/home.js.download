@@ -1,0 +1,48 @@
+$(document).ready(function () {
+    
+    $("#increaseSize").click(function () {
+        $('html').css({
+            cssText: 'font-size: calc(0.6vmin + 0.9rem) !important;'
+        });
+    });
+    
+    $("#resetSize").click(function () {
+        $('html').css({
+            cssText: 'font-size: calc(0.6vmin + 0.7rem) !important;'
+        });
+    });
+    
+    $("#decreaseSize").click(function () {
+        $('html').css({
+            cssText: 'font-size: calc(0.6vmin + 0.5rem) !important;'
+        });
+    });
+
+    $("#how-to-block").click(function () {
+        //console.log(window.location.pathname);
+        if (window.location.pathname == '/Home/index.jsp' || window.location.pathname == '/Home/index-hindi.jsp') {
+            $('#collapseOne').removeClass('show');
+            $('#collapseThree').removeClass('show');
+            $('#collapseTwo').addClass('show');
+            $('html, body').animate({
+                scrollTop: $("#collapseTwo").offset().top
+            }, 1500);
+        } else {
+            window.location.href = '/Home/index.jsp';
+        }
+    });
+
+    $('#skip-to-main-content').click(function () {
+        console.log('Skipping to main content!')
+        $('html, body').animate({
+            scrollTop: $("#skip-target").offset().top
+        }, 500);
+    });
+
+    //Set placeholder for custom Google Search input box
+    setTimeout(function () {
+        //document.getElementById('gsc-i-id1').placeholder = 'Search';
+       // $('#gsc-i-id1').css('background', 'none');
+    }, 500);
+
+});
