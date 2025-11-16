@@ -1,0 +1,842 @@
+
+<!-- saved from url=(0014)about:internet -->
+<html style="height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button[not:disabled]:hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel[not:disabled]:hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger[not:disabled]:hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+  <!--Bootstrap CSS-->
+  <link rel="icon" type="image/x-icon" href="https://tafcop.sancharsaathi.gov.in/telecomUser/resources/img/sanchar-saathi-logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src https://fonts.googleapis.com https://fonts.gstatic.com https://fonts.googleapis.com ;" /> -->
+      <link rel="stylesheet" href="./TAFCOP_files/base-layout.css">
+    <!--Font Awesome-->
+
+  
+  <!--   <link rel="stylesheet" type="text/css" href="/telecomUser/resources/css/brands.min.css">
+   <link rel="stylesheet" type="text/css" href="/telecomUser/resources/css/solid.min.css">
+  <link rel="stylesheet" href="/telecomUser/resources/css/bootstrap.min.css"> -->
+
+  <meta name="keywords" content="sanchar, saathi,tafcop, website">
+
+        
+ <link rel="stylesheet" href="./TAFCOP_files/bootstrap_5.3.0.min.css">
+        <link rel="stylesheet" type="text/css" href="./TAFCOP_files/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="./TAFCOP_files/brands.min.css">
+        <link rel="stylesheet" type="text/css" href="./TAFCOP_files/solid.min.css">
+        <link rel="stylesheet" type="text/css" href="./TAFCOP_files/swiper-bundle.min.css">
+        <link rel="stylesheet" type="text/css" data-theme="theme" href="./TAFCOP_files/base-layout(1).css">
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link href="./TAFCOP_files/css2" rel="stylesheet">
+    
+    
+    <script type="text/javascript" src="./TAFCOP_files/jquery-3.7.0.min.js.download"></script>
+        <script type="text/javascript" src="./TAFCOP_files/theme-setter.js.download"></script>
+ 
+    
+
+    <link rel="stylesheet" href="./TAFCOP_files/w3.css">
+            <link rel="stylesheet" type="text/css" href="./TAFCOP_files/home.css">
+        <!-- Page JavaScript Files-->
+ <script type="text/javascript" src="./TAFCOP_files/popper.min.js.download"> </script>
+        <script type="text/javascript" src="./TAFCOP_files/bootstrap_5.3.0.min.js.download"></script>
+        <script type="text/javascript" src="./TAFCOP_files/swiper-bundle.min.js.download"></script>
+    <!--Sweet alert JS -->
+    <script src="./TAFCOP_files/sweetalert.js.download"></script>
+    <!--Custom Js Script-->
+    	<script src="./TAFCOP_files/custom.js.download"></script>
+    	<script src="./TAFCOP_files/telecomUserActions.js.download"></script>
+    	 
+        <script type="text/javascript" src="./TAFCOP_files/home.js.download"></script>
+    	<style>
+
+
+body { margin: 1rem; }
+  	
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+#loading {
+                width: 100%;
+                height: 100%;
+                top: 0px;
+                left: 0px;
+                position: fixed;
+                display: block;
+                opacity: 0.7;
+                background-color: #fff;
+                z-index: 99;
+                text-align: center;
+                }
+
+             #loading-image {
+                position: absolute;
+                z-index: 100;
+                top: 50%;
+                left: 50%;
+                margin-top: -50px;
+                margin-left: -50px; 
+               }
+ 
+  
+  
+      .error-box {
+  background-color: #007bff;			
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.desc {
+  font-family: "Gotham-Bold";
+  font-size: 18px;
+  color: #575252;
+  padding: 8px;
+}
+
+.overflow-control-number {
+  font-size: 18px;
+  font-family: "Gotham-Bold";
+  color: #425364;
+  padding-bottom: 15px;
+}    
+
+body .modal-dialog { /* Width */
+    max-width: 60%;
+    width: auto !important;
+    
+}
+
+
+
+.text-white {
+  color: #fff !important;
+}
+.pb-2, .py-2 {
+  padding-bottom: .5rem !important;
+}
+
+.w3-bar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+.onhover{
+  background: white;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  width: 175px;
+}
+.onhover1:hover{
+  background:#f44336 !important;
+}
+.onhover2:hover{
+  background:#ff9800 !important;
+}
+.onhover3:hover{
+  background:#4caf50 !important;
+}
+.blue{
+  color: blue;
+}
+
+.btn_red.active{
+  background-color:#f44336;
+}
+.btn_orange.active{
+  background-color:#ff9800;
+}
+.btn_green.active{
+  background-color:#4caf50;
+}
+
+.btn-outline{
+  border-color: blue;
+}
+
+.border-right{
+   border-right: 1px solid #dee2e6 !important;
+ } 
+ .radio-container input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+ 
+</style>
+
+<meta name="_csrf" content="c69f86ea-d838-4105-a724-a9e9aac63820">
+<meta name="_csrf_header" content="X-CSRF-TOKEN">
+<meta name="_csrf_parameter" content="_csrf">
+<title>TAFCOP</title><link type="text/css" rel="stylesheet" charset="UTF-8" href="./TAFCOP_files/m=el_main_css"><script type="text/javascript" charset="UTF-8" src="./TAFCOP_files/m=el_main"></script></head>
+  
+<body style="position: relative; min-height: 100%; top: 0px;">
+<div class="content">	
+	<!-- -->
+		<!-- For login user -->
+		
+		<div class="container-fluid">
+		<form method="post" name="welcomePage" id="logoutForm">
+			<input type="hidden" name="_csrf" value="c69f86ea-d838-4105-a724-a9e9aac63820">
+				<input type="hidden" name="grpSize" id="grpSize" value="5">
+	
+
+   
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./TAFCOP_files/css2(1)" rel="stylesheet">
+
+
+
+
+<div id="top-bar" class="container-fluid top-bar">
+    <div class="row justify-content-center">
+        
+        <div class="col-md-5 ig-moc-col">
+            <div class="row">
+                <div class="col-5 col-lg-4 border-right">
+                    <p class="text-right mb-0 h6 pt-1 goi-text">भारत सरकार</p>
+                </div>
+                <div class="col-7 col-lg-8">
+                    <p class="text-left mb-0 h6 pt-1 goi-text">संचार मंत्रालय</p>
+                </div>
+            </div>
+            <div class="row justify-content-left">
+                <div class="col-5 col-lg-4 border-right">
+                    <p class="text-right mb-0 h6 goi-text">GOVERNMENT OF INDIA</p>
+                </div>
+                <div class="col-7 col-lg-8">
+                    <p class="text-left mb-0 h6 goi-text">MINISTRY OF COMMUNICATIONS</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-5 text-center text-md-right">
+            <div class="row justify-content-md-right justify-content-center">
+                <div class="col-4 border-left border-right position-relative d-flex">
+                    <a id="skip-to-main-content" href="https://tafcop.sancharsaathi.gov.in/telecomUser/welcome#" class="stretched-link text-decoration-none mx-auto my-auto">
+                        <p class="text-center skip-content-text text-dark mx-auto my-auto">SKIP TO MAIN CONTENT</p>
+                    </a>
+                </div>
+                <div class="col-1 border-right text-center position-relative d-flex">
+                    <a href="https://sancharsaathi.gov.in/Home/search.jsp" target="_blank" class="stretched-link mx-auto my-auto">
+                        <i class="fas fa-search top-utilities-icon  text-dark"></i>
+                    </a>
+                </div>
+                <div class="col-1 border-right text-center position-relative d-flex">
+                    <div class="dropdown mx-auto my-auto">
+                        <a class="stretched-link dropdown-toggle" href="https://tafcop.sancharsaathi.gov.in/telecomUser/welcome#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-font top-utilities-icon  text-dark"></i>
+                        </a>
+
+                        <div class="dropdown-menu text-size-dropdown-menu">
+                            <a class="dropdown-item" id="decreaseSize" href="https://tafcop.sancharsaathi.gov.in/telecomUser/welcome#">A<sup>-</sup></a>
+                            <a class="dropdown-item" id="resetSize" href="https://tafcop.sancharsaathi.gov.in/telecomUser/welcome#">A</a>
+                            <a class="dropdown-item" id="increaseSize" href="https://tafcop.sancharsaathi.gov.in/telecomUser/welcome#">A<sup>+</sup></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 border-right position-relative d-flex">
+
+                    <div class="dropdown text-center mx-auto my-auto">
+                        <a class="stretched-link dropdown-toggle" href="https://tafcop.sancharsaathi.gov.in/telecomUser/welcome#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-share-alt top-utilities-icon  text-dark"></i>
+                        </a>
+
+                        <div class="dropdown-menu text-size-dropdown-menu">
+                            <a class="dropdown-item" href="https://www.facebook.com/DoTIndia/" target="_blank"><i class="fab fa-facebook-square text-primary"></i></a>
+                            <a class="dropdown-item" href="https://twitter.com/dot_India" target="_blank"><i class="fab fa-twitter-square text-info"></i></a>
+                            <a class="dropdown-item" href="https://www.youtube.com/channel/UCCNc_OLa1-_knGHASA1PLkQ" target="_blank"><i class="fab fa-youtube-square text-danger"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 border-right text-center position-relative d-flex">
+                    <a href="https://sancharsaathi.gov.in/Home/sitemap.jsp" target="_blank" class="stretched-link mx-auto my-auto">
+                        <i class="fas fa-sitemap top-utilities-icon text-dark"></i>
+                    </a>
+                </div>
+                <div class="col-3 position-relative text-left">
+                    <div id="google_translate_element"><div class="skiptranslate goog-te-gadget" dir="ltr" style="display: none;"><div id=":0.targetLanguage"><select class="goog-te-combo" aria-label="Language Translate Widget"></select></div>Powered by <span style="white-space:nowrap"><a class="VIpgJd-ZVi9od-l4eHX-hSRGPd" href="https://translate.google.com/" target="_blank"><img src="./TAFCOP_files/googlelogo_color_42x16dp.png" width="37px" height="14px" style="padding-right: 3px" alt="Google Translate">Translate</a></span></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-light emblem-container">
+    <div class="row py-2 justify-content-center">
+        <div class="col-md-4 position-relative">
+            
+            <a href="https://dot.gov.in/" class="stretched-link text-decoration-none text-dark" title="Department of Telecommunications" target="_blank">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="./TAFCOP_files/emblem-dark.png" class="emblem-image" alt="National Emblem">
+                    </div>
+                    <div class="col-10 my-auto">
+                        <div class="row">
+                            <div class="col">
+                                <p class="mb-0 font-weight-bold dot-text">दूरसंचार विभाग</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p class="mb-0 font-weight-bold dot-text">DEPARTMENT OF TELECOMMUNICATIONS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 d-none d-md-block my-auto">
+            <div class="row g-1 justify-content-end">
+                <div class="col-2 text-center position-relative d-flex">
+                    <a href="https://sancharsaathi.gov.in/" class="stretched-link text-decoration-none text-dark mx-auto my-auto" title="Sanchar Saathi" target="_blank">
+                        <img src="./TAFCOP_files/sancharsaathi-logo.png" class="img-fluid" alt="Sanchar Saathi">
+                    </a>
+                </div>
+                <div class="col-2 text-center position-relative d-flex">
+                    <a href="https://www.india.gov.in/" class="stretched-link text-decoration-none text-dark mx-auto my-auto" title="National Portal for Indian Government, external link that opens in a new window" target="_blank">
+                        <img src="./TAFCOP_files/india-gov-in.png" class="img-fluid" alt="India GOV">
+                    </a>
+                </div>
+                <div class="col-2 text-center position-relative d-flex">
+                    <a href="https://www.g20.org/en/" class="stretched-link text-decoration-none text-dark mx-auto my-auto" title="G20 Presidency, external link that opens in a new window" target="_blank">
+                        <img src="./TAFCOP_files/g20-logo.png" class="img-fluid" alt="India G20">
+                    </a>
+                </div>
+                <div class="col-2 text-center position-relative d-flex">
+                    <a href="https://amritmahotsav.nic.in/" class="stretched-link text-decoration-none text-dark mx-auto my-auto" title="Azadi ka Amrit Mahotsav, external link that opens in a new window" target="_blank">
+                        <img src="./TAFCOP_files/azadi-mahotsav.png" class="img-fluid" alt="Azadi Mahotsav">
+                    </a>
+                </div>
+                <div class="col-2 text-center position-relative d-flex">
+                    <a href="https://swachhbharat.mygov.in/" class="stretched-link text-decoration-none text-dark mx-auto my-auto" title="Swachh Bharat, external link that opens in a new window" target="_blank">
+                        <img src="./TAFCOP_files/swachh-bharat.png" class="img-fluid" alt="Swach Bharat">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid border-top bg-light logos-container d-md-none">
+    <div class="row py-2 g-1 justify-content-around">
+        <div class="col-2 text-center position-relative d-flex">
+            <a href="https://sancharsaathi.gov.in/" class="stretched-link text-decoration-none text-dark mx-auto my-auto" title="Sanchar Saathi" target="_blank">
+                <img src="./TAFCOP_files/sancharsaathi-logo.png" class="img-fluid" alt="Sanchar Saathi">
+            </a>
+        </div>
+        <div class="col-2 text-center position-relative d-flex">
+            <a href="https://www.india.gov.in/" class="stretched-link text-decoration-none text-dark mx-auto my-auto" title="National Portal for Indian Government, external link that opens in a new window" target="_blank">
+                <img src="./TAFCOP_files/india-gov-in.png" class="img-fluid" alt="India GOV">
+            </a>
+        </div>
+        <div class="col-2 text-center position-relative d-flex">
+            <a href="https://www.g20.org/en/" class="stretched-link text-decoration-none text-dark mx-auto my-auto" title="G20 Presidency, external link that opens in a new window" target="_blank">
+                <img src="./TAFCOP_files/g20-logo.png" class="img-fluid" alt="India G20">
+            </a>
+        </div>
+        <div class="col-2 text-center position-relative d-flex">
+            <a href="https://amritmahotsav.nic.in/" class="stretched-link text-decoration-none text-dark mx-auto my-auto" title="Azadi ka Amrit Mahotsav, external link that opens in a new window" target="_blank">
+                <img src="./TAFCOP_files/azadi-mahotsav.png" class="img-fluid" alt="Azadi Mahotsav">
+            </a>
+        </div>
+        <div class="col-2 text-center position-relative d-flex">
+            <a href="https://swachhbharat.mygov.in/" class="stretched-link text-decoration-none text-dark mx-auto my-auto" title="Swachh Bharat, external link that opens in a new window" target="_blank">
+                <img src="./TAFCOP_files/swachh-bharat.png" class="img-fluid" alt="Swach Bharat">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="skip-target"></div>
+
+<nav id="nav-bar" class="navbar sticky-top navbar-expand-xl navbar-light shadow navbar-text w-100">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://sancharsaathi.gov.in/Home/index.jsp#" target="_blank"><img src="./TAFCOP_files/home-button.png" class="img-fluid navbar-brand-img" alt="Go to home"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sancharsaathi.gov.in/Home/index.jsp#main-content" target="_blank">Sanchar Saathi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sancharsaathi.gov.in/Home/index.jsp#about-container" target="_blank">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sancharsaathi.gov.in/Home/index.jsp#citizen-centric-container" target="_blank">Citizen Centric Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sancharsaathi.gov.in/Home/index.jsp#awareness-container" target="_blank">Keep Yourself Aware</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sancharsaathi.gov.in/Home/index.jsp#faq-container" target="_blank">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://sancharsaathi.gov.in/Home/index.jsp#social-container" target="_blank">In Social Media</a>
+                </li>
+                <li class="nav-item d-xl-none">
+                    <a class="nav-link" href="https://sancharsaathi.gov.in/Home/index.jsp#image-gallery-container" target="_blank">Image Gallery</a>
+                </li>
+                <li class="nav-item d-xl-none">
+                    <a class="nav-link" href="https://sancharsaathi.gov.in/Home/index.jsp#web-links-container" target="_blank">Useful Links</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://tafcopauth.sancharsaathi.gov.in/PrivilegeManagement/loginPage" target="_blank">Authorized Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script type="text/javascript" src="./TAFCOP_files/element.js.download"></script>
+
+<script src="./TAFCOP_files/topnav-en-new.js.download"></script>
+
+<script type="text/javascript">
+    /* function googleTranslateElementInit() {
+        setTimeout(() => {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'as,bn,doi,en,gu,hi,kn,gom,mai,ml,mr,ne,or,pa,sa,sd,ta,te,ur'
+            }, 'google_translate_element');
+        }, 500);
+    } */
+</script>
+   <!--Button tags-->
+                                             
+                        <!--  top nav bar  -->
+                <div class="col-sm-12 header-menu topnav pt-2 pb-0">
+                        	
+                <div class="row">
+    
+
+                    <!--Search box and avatar-->
+                    <div class="col-sm-12 col-12 d-flex text-right flex-header-menu justify-content-end" align="right">
+                         <div class="me-4">
+                           
+                               Welcome : 919525089300
+                              
+                           
+                                                   
+                        </div>
+                        <div class="me-3">
+                        <div class="countdown blink" style="width:auto;">2:46</div>
+                        </div>
+                        <div class="me-3">
+                       <!--  <button type="submit" onclick="formSubmit()" class="btn btn-info"><i class="fa fa-power-off"></i></button> -->
+                        <button type="submit" id="submit_form" class="btn btn-info"><i class="fa fa-power-off"></i></button>
+                        </div>
+                    </div>
+                   
+                </div>    
+            </div>
+  		<div class="col-md-12 pl-3 pe-3" align="center">
+			<div class="w3-bar">
+				<a class="w3-hover-red text-nowrap w3-red" data-bs-toggle="modal" data-bs-target="#notMyNumberInfoModal" data-auto-close="outside" title="Click for Info"><i class="fa fa-info-circle"></i> Not My Number</a> 
+				<a class="w3-hover-orange text-nowrap w3-orange" data-bs-toggle="modal" data-bs-target="#notRequiredInfoModal" data-auto-close="outside" title="Click for Info"><i class="fa fa-info-circle"></i> Not Required</a>
+				<a class="w3-hover-green text-nowrap w3-green" data-bs-toggle="modal" data-bs-target="#requiredInfoModal" data-auto-close="outside" title="Click for Info"><i class="fa fa-info-circle"></i> Required</a>
+			</div>
+			
+			</div> 
+
+
+			<!--/Button tags-->
+       	  <!--Main Content-->
+		 <div class="row main-content">                 	
+
+                              <!--Content right-->
+            <div class="col-sm-12 col-xs-12 content bg-white pt-3 pl-4 ml-3">
+                                   
+                                        
+                                        <!-- home tab -->
+                                       <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                            
+                                    
+                                             
+                                            <div id="homediv"> 
+                                            
+                                            <div class="listing-heading">
+          <h3 align="center">Mobile numbers registered in your name : 2</h3>
+          
+        </div>
+        
+            <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-6 col-sm-12">
+          <div class="check-box-wrapper top-wrapper">
+    
+              <div class="input-group md-3 col-md-8 float-right" style="align:right">
+                <input type="text" maxlength="4" id="complaintID" class="form-control" placeholder="Request Number" aria-label="Request number" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                 <!--  <button id="btnReportStatus" class="btn btn-outline-secondary" onclick="trackComplaint()" type="button">Track</button> -->
+                  <button id="btnReportStatus" class="btn btn-outline-secondary" type="button">Track</button>
+                </div>
+              </div>
+           
+          </div>
+        </div>
+  
+      </div>
+      <br>
+
+      
+                        <!--Datatable-->
+                        <div class="mt-1 mb-3 p-3 me-3 button-container bg-white border shadow-sm">
+                            
+                            
+                            <div class="table-responsive" align="center">
+                                <table id="mynumbersTable" class="table table-striped">
+                                   
+                                    <tbody>
+                                       
+			<tr>
+				<td>  <input type="checkbox" value="1" name="" class="0 true">
+                                      </td>
+				<td class="overflow-control-number"><font color="blue">9195XX08XX00</font></td>
+    <td>
+<div class="btn-group btn-group-toggle col radio-container" id="radiodiv" data-toggle="buttons" style="width:100%;">
+  <label class="btn btn-outline btn_red blue onhover1">
+    <input type="radio" name="1" value="not-my-number" id="option1" autocomplete="off"> Not My Number
+  </label>
+  <label class="btn btn-outline btn_orange blue onhover2">
+    <input type="radio" name="1" value="not-required" id="option2" autocomplete="off"> Not Required
+  </label>
+  <label class="btn btn-outline btn_green blue onhover3">
+    <input type="radio" name="1" value="required" id="option3" autocomplete="off"> Required
+  </label>
+</div>
+    </td>
+		<!-- <td><input type="button" name="clear" value="Clear Selection" onclick="clearRadio('1');"/> </td> -->														
+	
+			</tr>
+
+			<tr>
+				<td>  <input type="checkbox" value="1" name="" class="0 true">
+                                      </td>
+				<td class="overflow-control-number"><font color="blue">9194XX20XX00</font></td>
+    <td>
+<div class="btn-group btn-group-toggle col radio-container" id="radiodiv" data-toggle="buttons" style="width:100%;">
+  <label class="btn btn-outline btn_red blue onhover1">
+    <input type="radio" name="1" value="not-my-number" id="option1" autocomplete="off"> Not My Number
+  </label>
+  <label class="btn btn-outline btn_orange blue onhover2">
+    <input type="radio" name="1" value="not-required" id="option2" autocomplete="off"> Not Required
+  </label>
+  <label class="btn btn-outline btn_green blue onhover3">
+    <input type="radio" name="1" value="required" id="option3" autocomplete="off"> Required
+  </label>
+</div>
+    </td>
+		<!-- <td><input type="button" name="clear" value="Clear Selection" onclick="clearRadio('1');"/> </td> -->														
+	
+			</tr>
+
+
+								
+                                     
+                                    </tbody>
+                                  </table>
+                             
+                                  
+                                  <!--  <input class="btn btn-primary text-white" type="button" onclick="reportNumbers()" value="Report"> -->
+                                   <input class="btn btn-primary text-white" type="button" id="reportButton" value="Report">
+                            </div>
+                            
+                                 <div class="m-b-20" style="border: 1px solid #007bff;position: relative;top: 25px;">
+                                 <h3 class="text-primary" align="center">Disclaimer</h3>
+                                  <p style="width: 100%;" align="justify" class="m-b-15 ml-3 pe-5">
+                                <span class="desc">Efforts have been made to provide correct and complete information. There may be some discrepancies
+                                  which may be resolved as and when brought to the notice.</span>
+                                  <br>
+                                  <span class="desc">If your mobile number is activated as corporate/bulk 
+                                  connection then all related mobiles of your corporate 
+                                  will be listed.</span> </p></div>
+                                  <br>
+                        </div>
+                                            
+                                            </div>
+                                        </div>
+                                        
+                         
+                                </div>
+
+                
+                                </div>
+                                
+ 
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Session going to expire!</h4>
+        </div>
+        <div class="modal-body">
+          <p style="color:black;">Your session is going to expire soon.You may choose to extend session or logout</p>
+        </div>
+        <div class="modal-footer">
+       <!--  <button type="button" class="btn btn-default" onclick="extendSession()" data-bs-dismiss="modal">Extend Session</button> -->
+        <button type="button" class="btn btn-default" id="session_extend" data-bs-dismiss="modal">Extend Session</button>
+        
+       <!--  <button type="button" onclick="formSubmit()" class="btn btn-default" data-bs-dismiss="modal">Logout</button> -->
+        <button type="button" id="submit_form" class="btn btn-default" data-bs-dismiss="modal">Logout</button>
+        
+         <!--  <button type="button" onclick="modalClose()" class="btn btn-default" data-bs-toggle="modal" data-bs-dismiss="modal">Close</button> -->
+          <button type="button" id="modal_Close" class="btn btn-default" data-bs-toggle="modal" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="requestModal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Request Id Details</h5>
+       <!--  <button type="button" class="close" data-bs-toggle="modal" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body" style="width:auto; color:black;">
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="requestInfoModal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Submitted Request Details</h5>
+       <!--  <button type="button" class="close" data-bs-toggle="modal" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body" style="width:auto; color:black;">
+       
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+      </form> 
+      </div>  
+      </div>       
+                                       
+      
+
+
+
+
+
+<footer class="mt-auto">
+    <div class="footer-top pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item border-right border-white pe-3">
+                            <a class="text-white" href="https://www.sancharsaathi.gov.in/Home/contactus.jsp" target="_blank">Contact Us</a>
+                        </li>
+                        <li class="list-inline-item border-right border-white pe-3 pl-1">
+                            <a class="text-white" href="https://www.sancharsaathi.gov.in/Home/feedback.jsp" target="_blank">Feedback</a>
+                        </li>
+                        <li class="list-inline-item border-right border-white pe-3 pl-1">
+                            <a class="text-white" href="https://www.sancharsaathi.gov.in/Home/documents.jsp" target="_blank">Important Documents</a>
+                        </li>
+                        <li class="list-inline-item border-right border-white pe-3 pl-1">
+                            <a class="text-white" href="https://www.sancharsaathi.gov.in/Home/website-policies.jsp" target="_blank">Website Policies</a>
+                        </li>
+                        <li class="list-inline-item pl-1">
+                            <a class="text-white" href="https://www.sancharsaathi.gov.in/Home/web-information-manager.jsp" target="_blank">Web Information Manager</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom text-white py-2">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-1 text-md-right">
+                    <img src="./TAFCOP_files/cdot-logo.jpg" class="img-fluid" alt="CDOT" style="max-height: 70px;">
+                </div>
+                <div class="col-md-7">
+                    Website content managed by <strong>Department of Telecommunications, Ministry of Communications, GoI</strong><br>
+                    Designed, Developed and Hosted by <strong>Centre for Development of Telematics (C-DOT)</strong><br> 
+                    Website best viewed in Chrome 90+ and Firefox 90+
+                </div>
+                <div class="col-md-3">
+                    
+                   <!--  <strong>Visitor Count :</strong> 12,255<br> -->
+                    <strong>Website Last Updated :</strong> 08-09-2025 11:26:25
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>          
+	<!-- -->
+
+ <div id="loading" style="display: none;">
+        <img id="loading-image" src="./TAFCOP_files/Loading_icon.gif" alt="Loading...">
+    </div>
+ 
+ <!-- Modal -->
+<div class="modal fade" id="requiredInfoModal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Required</h5>
+      <!--   <button type="button" class="close" data-bs-toggle="modal" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body" style="width:auto; color:black;">
+        This option is to inform that selected mobile 
+  		connection(s) are active in your name and No
+  		action is required.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <!-- Modal -->
+<div class="modal fade" id="notRequiredInfoModal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Not Required</h5>
+      <!--   <button type="button" class="close" data-bs-toggle="modal" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body" style="width:auto; color:black;">
+        This option is to raise request of disconnection of selected mobile 
+  		connection(s) which are active in your name and not
+  		required anymore.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Modal -->
+<div class="modal fade" id="notMyNumberInfoModal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Not My Number</h5>
+       <!--  <button type="button" class="close" data-bs-toggle="modal" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body" style="width:auto; color:black;">
+        This option is to raise request of disconnection of selected mobile 
+  		connection(s) which are active in your name and without your knowledge.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div><div id="goog-gt-tt" class="VIpgJd-yAWNEb-L7lbkb skiptranslate" style="border-radius: 12px; margin: 0 0 0 -23px; padding: 0; font-family: &#39;Google Sans&#39;, Arial, sans-serif;" data-id=""><div id="goog-gt-vt" class="VIpgJd-yAWNEb-hvhgNd"><div class="VIpgJd-yAWNEb-hvhgNd-Ud7fr"><img src="./TAFCOP_files/24px.svg" width="24" height="24" alt=""><div class=" VIpgJd-yAWNEb-hvhgNd-IuizWc-i3jM8c " dir="ltr">Original text</div></div><div class="VIpgJd-yAWNEb-hvhgNd-k77Iif"><div id="goog-gt-original-text" class="VIpgJd-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"></div></div><div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr"><div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od ltr" dir="ltr"><div class="VIpgJd-yAWNEb-hvhgNd-UTujCb">Rate this translation</div><div class="VIpgJd-yAWNEb-hvhgNd-eO9mKe">Your feedback will be used to help improve Google Translate</div></div><div class="VIpgJd-yAWNEb-hvhgNd-xgov5 ltr"><button id="goog-gt-thumbUpButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Good translation" aria-label="Good translation" aria-pressed="false"><span id="goog-gt-thumbUpIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z"></path></svg></span><span id="goog-gt-thumbUpIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM5 7H1v13h4V7z"></path></svg></span></button><button id="goog-gt-thumbDownButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Poor translation" aria-label="Poor translation" aria-pressed="false"><span id="goog-gt-thumbDownIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z"></path></svg></span><span id="goog-gt-thumbDownIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z"></path></svg></span></button></div></div><div id="goog-gt-votingHiddenPane" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><form id="goog-gt-votingForm" action="https://translate.googleapis.com/translate_voting?client=te" method="post" target="votingFrame" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><input type="text" name="sl" id="goog-gt-votingInputSrcLang"><input type="text" name="tl" id="goog-gt-votingInputTrgLang"><input type="text" name="query" id="goog-gt-votingInputSrcText"><input type="text" name="gtrans" id="goog-gt-votingInputTrgText"><input type="text" name="vote" id="goog-gt-votingInputVote"></form><iframe name="votingFrame" frameborder="0" src="./TAFCOP_files/saved_resource.html"></iframe></div></div></div>
+ 
+  
+
+
+<div class="VIpgJd-ZVi9od-aZ2wEe-wOHMyf"><div class="VIpgJd-ZVi9od-aZ2wEe-OiiCO"><svg xmlns="http://www.w3.org/2000/svg" class="VIpgJd-ZVi9od-aZ2wEe" width="96px" height="96px" viewBox="0 0 66 66"><circle class="VIpgJd-ZVi9od-aZ2wEe-Jt5cK" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div><div class="swal-overlay" tabindex="-1">
+  <div class="swal-modal" role="dialog" aria-modal="true"><div class="swal-icon swal-icon--warning">
+    <span class="swal-icon--warning__body">
+      <span class="swal-icon--warning__dot"></span>
+    </span>
+  </div><div class="swal-title" style="">Session going to expire!</div><div class="swal-text" style="">Your session is going to expire soon.You may choose to extend session or logout!</div><div class="swal-footer"><div class="swal-button-container">
+
+    <button class="swal-button swal-button--cancel" tabindex="0">No, cancel it!</button>
+
+    <div class="swal-button__loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </div><div class="swal-button-container">
+
+    <button class="swal-button swal-button--confirm swal-button--danger">Yes, Extend Session!</button>
+
+    <div class="swal-button__loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </div></div></div></div></body><iframe sandbox="allow-scripts" src="./TAFCOP_files/saved_resource(1).html" style="display: none;"></iframe></html>
